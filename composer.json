@@ -1,0 +1,16 @@
+{
+    "name": "web/php_react",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/database": "^5.4",
+        "nikic/fast-route": "^1.2"
+    },
+    "autoload": {
+        "classmap": ["class/"],
+        "psr-4": {
+           
+        }
+    }
+}

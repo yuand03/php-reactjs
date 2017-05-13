@@ -1,0 +1,33 @@
+{
+  "name": "react-compontes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "watch": "./node_modules/.bin/webpack --watch",
+    "start": "php5 -S localhost:8080"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "postcss": "^5.2.17",
+    "precss": "^1.4.0",
+    "style-loader": "^0.16.1",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "^15.5.4",
+    "react-burger-menu": "^2.0.0",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "reactable": "^0.14.1"
+  }
+}
